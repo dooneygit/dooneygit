@@ -22,3 +22,12 @@
 [![C#](https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&logoColor=white)](#)
 
 </div>
+
+<br>
+<a href="https://gitcolors.vercel.app" target="_blank" rel="noopener">
+  <picture>
+    <source srcset="https://gitcolors.vercel.app/api/svg?username=dooneygit&color=ff9788&theme=dark&mode=levels&preset=none&animate=true&emptyColor=neutral" media="(prefers-color-scheme: dark)" />
+    <source srcset="https://gitcolors.vercel.app/api/svg?username=dooneygit&color=ff9788&theme=light&mode=levels&preset=none&animate=true&emptyColor=neutral" media="(prefers-color-scheme: light)" />
+    <img src="https://gitcolors.vercel.app/api/svg?username=dooneygit&color=ff9788&theme=light&mode=levels&preset=none&animate=true&emptyColor=neutral" width="846" height="145" />
+  </picture>
+</a>
