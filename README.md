@@ -26,8 +26,8 @@
 <br>
 <a href="https://gitcolors.vercel.app" target="_blank" rel="noopener">
   <picture>
-    <source srcset="https://gitcolors.vercel.app/api/svg?username=dooneygit&color=ff9788&theme=dark&mode=levels&preset=none&animate=true&emptyColor=neutral" media="(prefers-color-scheme: dark)" />
-    <source srcset="https://gitcolors.vercel.app/api/svg?username=dooneygit&color=ff9788&theme=light&mode=levels&preset=none&animate=true&emptyColor=neutral" media="(prefers-color-scheme: light)" />
-    <img src="https://gitcolors.vercel.app/api/svg?username=dooneygit&color=ff9788&theme=light&mode=levels&preset=none&animate=true&emptyColor=neutral" width="846" height="145" />
+    <source srcset="https://gitcolors.vercel.app/api/svg?username=dooneygit&color=ff7472&theme=dark&mode=levels&preset=none&animate=true&emptyColor=neutral" media="(prefers-color-scheme: dark)" />
+    <source srcset="https://gitcolors.vercel.app/api/svg?username=dooneygit&color=ff7472&theme=light&mode=levels&preset=none&animate=true&emptyColor=neutral" media="(prefers-color-scheme: light)" />
+    <img src="https://gitcolors.vercel.app/api/svg?username=dooneygit&color=ff7472&theme=light&mode=levels&preset=none&animate=true&emptyColor=neutral" width="846" height="145" />
   </picture>
 </a>
