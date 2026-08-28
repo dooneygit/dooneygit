@@ -68,79 +68,57 @@
   <!-- =============================== moon ============================== -->
   <g transform="translate(1290,72)">
     <circle r="26" fill="#3b4152"/>
-    <path d="M0-26 A26 26 0 1 0 0 26 A34 34 0 0 1 0-26 Z" fill="#ffd85e"/>
+    <path d="M4.1-16.5 A17 17 0 1 0 11.4 12.6 A15 15 0 0 1 4.1-16.5 Z" fill="#ffd85e"/>
   </g>
 
   <!-- ============================= fireflies ============================ -->
   <g>
-    <g transform="translate(120,236)">
+    <g transform="translate(150,240)">
       <use xlink:href="#f">
-        <animate attributeName="opacity" values="0;.95;.2;.9;0" dur="5.2s" begin="0s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;.95;.25;.9;.2;.85;0" dur="7.4s" begin="0s" repeatCount="indefinite"/>
         <animateTransform attributeName="transform" type="translate"
-                          values="0 0; 9 -12; -5 -3; 0 0" dur="11s" begin="0s" repeatCount="indefinite"/>
+                          values="0 0; 54 -32; 18 18; 72 26; -26 -14; 0 0"
+                          dur="16s" begin="0s" repeatCount="indefinite"/>
       </use>
     </g>
-    <g transform="translate(268,272)">
+    <g transform="translate(430,262)">
       <use xlink:href="#f">
-        <animate attributeName="opacity" values="0;.85;.15;.9;0" dur="6.4s" begin="1.3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;.85;.2;.95;.15;.9;0" dur="6.2s" begin="1.7s" repeatCount="indefinite"/>
         <animateTransform attributeName="transform" type="translate"
-                          values="0 0; -8 -9; 6 -14; 0 0" dur="13s" begin=".5s" repeatCount="indefinite"/>
+                          values="0 0; -48 -26; 22 -52; -18 12; 46 -34; 0 0"
+                          dur="19s" begin=".8s" repeatCount="indefinite"/>
       </use>
     </g>
-    <g transform="translate(412,208)">
+    <g transform="translate(690,224)">
       <use xlink:href="#f">
-        <animate attributeName="opacity" values="0;.9;.25;.8;0" dur="4.6s" begin="2.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;.9;.15;.85;.25;.95;0" dur="8.1s" begin="2.9s" repeatCount="indefinite"/>
         <animateTransform attributeName="transform" type="translate"
-                          values="0 0; 7 10; -9 4; 0 0" dur="9.5s" begin="1.4s" repeatCount="indefinite"/>
+                          values="0 0; 38 44; -44 20; 60 -18; -12 48; 0 0"
+                          dur="15s" begin="2.2s" repeatCount="indefinite"/>
       </use>
     </g>
-    <g transform="translate(548,258)">
+    <g transform="translate(930,268)">
       <use xlink:href="#f">
-        <animate attributeName="opacity" values="0;.95;.2;.85;0" dur="7.1s" begin=".6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;.95;.2;.9;.15;.8;0" dur="5.6s" begin=".9s" repeatCount="indefinite"/>
         <animateTransform attributeName="transform" type="translate"
-                          values="0 0; -10 -6; 4 -12; 0 0" dur="12s" begin="2.1s" repeatCount="indefinite"/>
+                          values="0 0; -62 -40; -14 -8; 34 -56; 50 14; 0 0"
+                          dur="21s" begin="3.4s" repeatCount="indefinite"/>
       </use>
     </g>
-    <g transform="translate(676,224)">
+    <g transform="translate(1140,232)">
       <use xlink:href="#f">
-        <animate attributeName="opacity" values="0;.8;.15;.95;0" dur="5.8s" begin="3.1s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;.85;.25;.95;.2;.9;0" dur="9.3s" begin="3.6s" repeatCount="indefinite"/>
         <animateTransform attributeName="transform" type="translate"
-                          values="0 0; 11 8; -6 -5; 0 0" dur="10.5s" begin=".9s" repeatCount="indefinite"/>
+                          values="0 0; 46 36; -30 52; -58 6; 24 -28; 0 0"
+                          dur="17s" begin="1.3s" repeatCount="indefinite"/>
       </use>
     </g>
-    <g transform="translate(812,276)">
+    <g transform="translate(1370,266)">
       <use xlink:href="#f">
-        <animate attributeName="opacity" values="0;.9;.3;.85;0" dur="6.7s" begin="1.9s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;.9;.15;.85;.3;.95;0" dur="6.8s" begin="2.1s" repeatCount="indefinite"/>
         <animateTransform attributeName="transform" type="translate"
-                          values="0 0; -7 -14; 8 -4; 0 0" dur="14s" begin="3.3s" repeatCount="indefinite"/>
-      </use>
-    </g>
-    <g transform="translate(944,214)">
-      <use xlink:href="#f">
-        <animate attributeName="opacity" values="0;.95;.2;.8;0" dur="4.9s" begin=".4s" repeatCount="indefinite"/>
-        <animateTransform attributeName="transform" type="translate"
-                          values="0 0; 6 12; -10 6; 0 0" dur="11.5s" begin="1.7s" repeatCount="indefinite"/>
-      </use>
-    </g>
-    <g transform="translate(1082,262)">
-      <use xlink:href="#f">
-        <animate attributeName="opacity" values="0;.85;.25;.9;0" dur="6.1s" begin="2.7s" repeatCount="indefinite"/>
-        <animateTransform attributeName="transform" type="translate"
-                          values="0 0; -9 -10; 5 -6; 0 0" dur="12.5s" begin="0s" repeatCount="indefinite"/>
-      </use>
-    </g>
-    <g transform="translate(1216,240)">
-      <use xlink:href="#f">
-        <animate attributeName="opacity" values="0;.9;.15;.85;0" dur="5.4s" begin="3.8s" repeatCount="indefinite"/>
-        <animateTransform attributeName="transform" type="translate"
-                          values="0 0; 8 -8; -7 9; 0 0" dur="10s" begin="2.6s" repeatCount="indefinite"/>
-      </use>
-    </g>
-    <g transform="translate(1356,270)">
-      <use xlink:href="#f">
-        <animate attributeName="opacity" values="0;.95;.2;.9;0" dur="7.6s" begin="1.1s" repeatCount="indefinite"/>
-        <animateTransform attributeName="transform" type="translate"
-                          values="0 0; -6 -13; 9 -3; 0 0" dur="13.5s" begin="1.2s" repeatCount="indefinite"/>
+                          values="0 0; -52 -50; 30 -20; -20 22; -68 -8; 0 0"
+                          dur="18s" begin="4.1s" repeatCount="indefinite"/>
       </use>
     </g>
   </g>

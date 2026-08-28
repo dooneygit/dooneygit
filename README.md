@@ -24,3 +24,8 @@
 | [![Kotlin](https://img.shields.io/badge/Kotlin-%237F52FF.svg?logo=kotlin&logoColor=white&style=flat-square)](#) | [![PyTorch](https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white&style=flat-square)](#) | [![Datadog](https://img.shields.io/badge/Datadog-632CA6?logo=datadog&logoColor=fff&style=flat-square)](#) |
 
 </details>
+
+<br>
+<p>
+  <img src="assets/footer.svg" alt="night sky" width="100%">
+</p>
