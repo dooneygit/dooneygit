@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1500 300" width="1500" height="300" role="img" aria-label="Night sky with twinkling stars, a crescent moon and fireflies">
+
+  <defs>
+    <!-- four-point diamond star -->
+    <path id="s" fill="#fff"
+          d="M0-6 Q.9-.9 6 0 Q.9 .9 0 6 Q-.9 .9 -6 0 Q-.9-.9 0-6 Z"/>
+
+    <!-- firefly glow falloff -->
+    <radialGradient id="g">
+      <stop offset="0"   stop-color="#ffe15c" stop-opacity=".9"/>
+      <stop offset=".35" stop-color="#ffd52e" stop-opacity=".35"/>
+      <stop offset="1"   stop-color="#ffd52e" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- firefly: soft halo + bright core -->
+    <g id="f">
+      <circle r="11" fill="url(#g)"/>
+      <circle r="2.2" fill="#fff2a8"/>
+    </g>
+  </defs>
+
+  <!-- ============================== stars ============================== -->
+  <g>
+    <use xlink:href="#s" transform="translate(70,58) scale(.75)">
+      <animate attributeName="opacity" values=".15;1;.15"   dur="3.1s" begin="0s"   repeatCount="indefinite"/>
+    </use>
+    <use xlink:href="#s" transform="translate(188,132) scale(.5)">
+      <animate attributeName="opacity" values=".2;.9;.2"    dur="4.4s" begin="1.2s" repeatCount="indefinite"/>
+    </use>
+    <use xlink:href="#s" transform="translate(295,42) scale(1)">
+      <animate attributeName="opacity" values=".1;1;.1"     dur="2.6s" begin=".7s"  repeatCount="indefinite"/>
+    </use>
+    <use xlink:href="#s" transform="translate(402,96) scale(.6)">
+      <animate attributeName="opacity" values=".25;.85;.25" dur="5.2s" begin="2.1s" repeatCount="indefinite"/>
+    </use>
+    <use xlink:href="#s" transform="translate(516,150) scale(.45)">
+      <animate attributeName="opacity" values=".15;.95;.15" dur="3.7s" begin=".3s"  repeatCount="indefinite"/>
+    </use>
+    <use xlink:href="#s" transform="translate(610,34) scale(.8)">
+      <animate attributeName="opacity" values=".2;1;.2"     dur="4.9s" begin="1.8s" repeatCount="indefinite"/>
+    </use>
+    <use xlink:href="#s" transform="translate(724,110) scale(.55)">
+      <animate attributeName="opacity" values=".1;.9;.1"    dur="2.9s" begin="2.6s" repeatCount="indefinite"/>
+    </use>
+    <use xlink:href="#s" transform="translate(838,64) scale(.9)">
+      <animate attributeName="opacity" values=".2;1;.2"     dur="5.6s" begin=".4s"  repeatCount="indefinite"/>
+    </use>
+    <use xlink:href="#s" transform="translate(946,142) scale(.5)">
+      <animate attributeName="opacity" values=".15;.85;.15" dur="3.4s" begin="1.5s" repeatCount="indefinite"/>
+    </use>
+    <use xlink:href="#s" transform="translate(1058,50) scale(.7)">
+      <animate attributeName="opacity" values=".1;1;.1"     dur="4.1s" begin="3.2s" repeatCount="indefinite"/>
+    </use>
+    <use xlink:href="#s" transform="translate(1164,118) scale(.6)">
+      <animate attributeName="opacity" values=".2;.95;.2"   dur="2.8s" begin=".9s"  repeatCount="indefinite"/>
+    </use>
+    <use xlink:href="#s" transform="translate(1244,196) scale(.45)">
+      <animate attributeName="opacity" values=".1;.8;.1"    dur="4.6s" begin="3.7s" repeatCount="indefinite"/>
+    </use>
+    <use xlink:href="#s" transform="translate(1372,146) scale(.85)">
+      <animate attributeName="opacity" values=".15;1;.15"   dur="5s"   begin="2.4s" repeatCount="indefinite"/>
+    </use>
+    <use xlink:href="#s" transform="translate(1436,44) scale(.5)">
+      <animate attributeName="opacity" values=".2;.9;.2"    dur="3.6s" begin="1.1s" repeatCount="indefinite"/>
+    </use>
+  </g>
+
+  <!-- =============================== moon ============================== -->
+  <g transform="translate(1290,72)">
+    <circle r="26" fill="#3b4152"/>
+    <path d="M0-26 A26 26 0 1 0 0 26 A34 34 0 0 1 0-26 Z" fill="#ffd85e"/>
+  </g>
+
+  <!-- ============================= fireflies ============================ -->
+  <g>
+    <g transform="translate(120,236)">
+      <use xlink:href="#f">
+        <animate attributeName="opacity" values="0;.95;.2;.9;0" dur="5.2s" begin="0s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate"
+                          values="0 0; 9 -12; -5 -3; 0 0" dur="11s" begin="0s" repeatCount="indefinite"/>
+      </use>
+    </g>
+    <g transform="translate(268,272)">
+      <use xlink:href="#f">
+        <animate attributeName="opacity" values="0;.85;.15;.9;0" dur="6.4s" begin="1.3s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate"
+                          values="0 0; -8 -9; 6 -14; 0 0" dur="13s" begin=".5s" repeatCount="indefinite"/>
+      </use>
+    </g>
+    <g transform="translate(412,208)">
+      <use xlink:href="#f">
+        <animate attributeName="opacity" values="0;.9;.25;.8;0" dur="4.6s" begin="2.2s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate"
+                          values="0 0; 7 10; -9 4; 0 0" dur="9.5s" begin="1.4s" repeatCount="indefinite"/>
+      </use>
+    </g>
+    <g transform="translate(548,258)">
+      <use xlink:href="#f">
+        <animate attributeName="opacity" values="0;.95;.2;.85;0" dur="7.1s" begin=".6s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate"
+                          values="0 0; -10 -6; 4 -12; 0 0" dur="12s" begin="2.1s" repeatCount="indefinite"/>
+      </use>
+    </g>
+    <g transform="translate(676,224)">
+      <use xlink:href="#f">
+        <animate attributeName="opacity" values="0;.8;.15;.95;0" dur="5.8s" begin="3.1s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate"
+                          values="0 0; 11 8; -6 -5; 0 0" dur="10.5s" begin=".9s" repeatCount="indefinite"/>
+      </use>
+    </g>
+    <g transform="translate(812,276)">
+      <use xlink:href="#f">
+        <animate attributeName="opacity" values="0;.9;.3;.85;0" dur="6.7s" begin="1.9s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate"
+                          values="0 0; -7 -14; 8 -4; 0 0" dur="14s" begin="3.3s" repeatCount="indefinite"/>
+      </use>
+    </g>
+    <g transform="translate(944,214)">
+      <use xlink:href="#f">
+        <animate attributeName="opacity" values="0;.95;.2;.8;0" dur="4.9s" begin=".4s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate"
+                          values="0 0; 6 12; -10 6; 0 0" dur="11.5s" begin="1.7s" repeatCount="indefinite"/>
+      </use>
+    </g>
+    <g transform="translate(1082,262)">
+      <use xlink:href="#f">
+        <animate attributeName="opacity" values="0;.85;.25;.9;0" dur="6.1s" begin="2.7s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate"
+                          values="0 0; -9 -10; 5 -6; 0 0" dur="12.5s" begin="0s" repeatCount="indefinite"/>
+      </use>
+    </g>
+    <g transform="translate(1216,240)">
+      <use xlink:href="#f">
+        <animate attributeName="opacity" values="0;.9;.15;.85;0" dur="5.4s" begin="3.8s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate"
+                          values="0 0; 8 -8; -7 9; 0 0" dur="10s" begin="2.6s" repeatCount="indefinite"/>
+      </use>
+    </g>
+    <g transform="translate(1356,270)">
+      <use xlink:href="#f">
+        <animate attributeName="opacity" values="0;.95;.2;.9;0" dur="7.6s" begin="1.1s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate"
+                          values="0 0; -6 -13; 9 -3; 0 0" dur="13.5s" begin="1.2s" repeatCount="indefinite"/>
+      </use>
+    </g>
+  </g>
+
+</svg>
