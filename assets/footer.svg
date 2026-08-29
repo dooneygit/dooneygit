@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1500 300" width="1500" height="300" role="img" aria-label="Night sky with twinkling stars, a crescent moon and fireflies">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1500 300" width="1500" height="300" role="img" aria-label="Night sky with twinkling stars, a crescent moon, fireflies and grass">
 
   <defs>
     <!-- four-point diamond star -->
@@ -16,6 +16,15 @@
     <g id="f">
       <circle r="11" fill="url(#g)"/>
       <circle r="2.2" fill="#fff2a8"/>
+    </g>
+
+    <!-- grass blade cluster, rooted at origin -->
+    <g id="b" fill="none" stroke="#14311e" stroke-width="3" stroke-linecap="round">
+      <path d="M0 0 C1-10 -3-18 -8-26"/>
+      <path d="M4 0 C5-12 4-22 1-32"/>
+      <path d="M9 0 C11-9 13-19 19-27"/>
+      <path d="M-6 0 C-8-8 -13-14 -19-20"/>
+      <path d="M14 0 C16-7 20-12 26-16"/>
     </g>
   </defs>
 
@@ -69,6 +78,39 @@
   <g transform="translate(1290,72) scale(2)">
     <circle r="26" fill="#3b4152"/>
     <path d="M4.1-16.5 A17 17 0 1 0 11.4 12.6 A15 15 0 0 1 4.1-16.5 Z" fill="#ffd85e"/>
+  </g>
+
+  <!-- =============================== grass ============================= -->
+  <g>
+    <!-- far rolling hills -->
+    <path d="M0,282 C120,262 240,290 380,274 C520,258 640,288 780,272 C920,256 1040,286 1180,270 C1320,256 1420,282 1500,268 L1500,300 L0,300 Z" fill="#1c3f28"/>
+
+    <!-- blades -->
+    <use xlink:href="#b" transform="translate(28,290) scale(1.1)"/>
+    <use xlink:href="#b" transform="translate(96,291) scale(.8)"/>
+    <use xlink:href="#b" transform="translate(158,289) scale(1.25)"/>
+    <use xlink:href="#b" transform="translate(232,292) scale(.9)"/>
+    <use xlink:href="#b" transform="translate(304,290) scale(1.15)"/>
+    <use xlink:href="#b" transform="translate(372,291) scale(.75)"/>
+    <use xlink:href="#b" transform="translate(438,289) scale(1.2)"/>
+    <use xlink:href="#b" transform="translate(512,292) scale(.95)"/>
+    <use xlink:href="#b" transform="translate(580,290) scale(1.05)"/>
+    <use xlink:href="#b" transform="translate(650,291) scale(.8)"/>
+    <use xlink:href="#b" transform="translate(716,289) scale(1.3)"/>
+    <use xlink:href="#b" transform="translate(790,292) scale(.85)"/>
+    <use xlink:href="#b" transform="translate(858,290) scale(1.1)"/>
+    <use xlink:href="#b" transform="translate(926,291) scale(.7)"/>
+    <use xlink:href="#b" transform="translate(992,289) scale(1.2)"/>
+    <use xlink:href="#b" transform="translate(1064,292) scale(.9)"/>
+    <use xlink:href="#b" transform="translate(1136,290) scale(1.15)"/>
+    <use xlink:href="#b" transform="translate(1204,291) scale(.78)"/>
+    <use xlink:href="#b" transform="translate(1272,289) scale(1.25)"/>
+    <use xlink:href="#b" transform="translate(1346,292) scale(.92)"/>
+    <use xlink:href="#b" transform="translate(1414,290) scale(1.08)"/>
+    <use xlink:href="#b" transform="translate(1476,291) scale(.82)"/>
+
+    <!-- near ground line -->
+    <path d="M0,284 C180,278 320,288 500,282 C680,276 820,287 1000,281 C1180,275 1330,286 1500,280 L1500,300 L0,300 Z" fill="#10281a"/>
   </g>
 
   <!-- ============================= fireflies ============================ -->
