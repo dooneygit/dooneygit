@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1500 300" width="1500" height="300" role="img" aria-label="Night sky with twinkling stars, a crescent moon, fireflies and grass">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1500 300" width="1500" height="300" role="img" aria-label="Night sky with twinkling stars, a crescent moon, fireflies, grass and falling cherry blossom petals">
 
   <defs>
     <!-- four-point diamond star -->
@@ -26,6 +26,10 @@
       <path d="M-6 0 C-8-8 -13-14 -19-20"/>
       <path d="M14 0 C16-7 20-12 26-16"/>
     </g>
+
+    <!-- cherry blossom petal -->
+    <path id="p" fill="#ffb7c5"
+          d="M0-7 C5-4.5 6.5 1 0 7 C-6.5 1 -5-4.5 0-7 Z"/>
   </defs>
 
   <!-- ============================== stars ============================== -->
@@ -162,6 +166,179 @@
                           values="0 0; -52 -50; 30 -20; -20 22; -68 -8; 0 0"
                           dur="18s" begin="4.1s" repeatCount="indefinite"/>
       </use>
+    </g>
+  </g>
+
+
+  <!-- ============================== petals ============================= -->
+  <g>
+    <g transform="translate(62,-16)">
+      <g>
+        <animateTransform attributeName="transform" type="translate"
+                          values="0 0; 0 336" dur="12.0s" begin="0.0s" repeatCount="indefinite"/>
+        <g>
+          <animateTransform attributeName="transform" type="translate"
+                            values="0 0; 18 0; -18 0; 0 0" dur="3.6s" begin="0.0s" repeatCount="indefinite"/>
+          <use xlink:href="#p" transform="scale(1.0)" opacity="0.85">
+            <animateTransform attributeName="transform" type="rotate" additive="sum"
+                              values="0;360" dur="5.2s" begin="0.0s" repeatCount="indefinite"/>
+          </use>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(178,-16)">
+      <g>
+        <animateTransform attributeName="transform" type="translate"
+                          values="0 0; 0 336" dur="15.5s" begin="2.4s" repeatCount="indefinite"/>
+        <g>
+          <animateTransform attributeName="transform" type="translate"
+                            values="0 0; -14 0; 14 0; 0 0" dur="4.4s" begin="2.4s" repeatCount="indefinite"/>
+          <use xlink:href="#p" transform="scale(0.7)" opacity="0.6">
+            <animateTransform attributeName="transform" type="rotate" additive="sum"
+                              values="-30;25;-30" dur="3.8s" begin="2.4s" repeatCount="indefinite"/>
+          </use>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(305,-16)">
+      <g>
+        <animateTransform attributeName="transform" type="translate"
+                          values="0 0; 0 336" dur="10.5s" begin="5.1s" repeatCount="indefinite"/>
+        <g>
+          <animateTransform attributeName="transform" type="translate"
+                            values="0 0; 22 0; -22 0; 0 0" dur="3.1s" begin="5.1s" repeatCount="indefinite"/>
+          <use xlink:href="#p" transform="scale(0.85)" opacity="0.75">
+            <animateTransform attributeName="transform" type="rotate" additive="sum"
+                              values="0;-360" dur="6.1s" begin="5.1s" repeatCount="indefinite"/>
+          </use>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(441,-16)">
+      <g>
+        <animateTransform attributeName="transform" type="translate"
+                          values="0 0; 0 336" dur="17.0s" begin="1.3s" repeatCount="indefinite"/>
+        <g>
+          <animateTransform attributeName="transform" type="translate"
+                            values="0 0; -10 0; 10 0; 0 0" dur="5.2s" begin="1.3s" repeatCount="indefinite"/>
+          <use xlink:href="#p" transform="scale(0.55)" opacity="0.5">
+            <animateTransform attributeName="transform" type="rotate" additive="sum"
+                              values="-20;30;-20" dur="4.5s" begin="1.3s" repeatCount="indefinite"/>
+          </use>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(566,-16)">
+      <g>
+        <animateTransform attributeName="transform" type="translate"
+                          values="0 0; 0 336" dur="11.2s" begin="7.6s" repeatCount="indefinite"/>
+        <g>
+          <animateTransform attributeName="transform" type="translate"
+                            values="0 0; 16 0; -16 0; 0 0" dur="3.9s" begin="7.6s" repeatCount="indefinite"/>
+          <use xlink:href="#p" transform="scale(1.05)" opacity="0.8">
+            <animateTransform attributeName="transform" type="rotate" additive="sum"
+                              values="0;360" dur="4.0s" begin="7.6s" repeatCount="indefinite"/>
+          </use>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(694,-16)">
+      <g>
+        <animateTransform attributeName="transform" type="translate"
+                          values="0 0; 0 336" dur="14.0s" begin="3.8s" repeatCount="indefinite"/>
+        <g>
+          <animateTransform attributeName="transform" type="translate"
+                            values="0 0; -20 0; 20 0; 0 0" dur="4.7s" begin="3.8s" repeatCount="indefinite"/>
+          <use xlink:href="#p" transform="scale(0.75)" opacity="0.65">
+            <animateTransform attributeName="transform" type="rotate" additive="sum"
+                              values="20;-25;20" dur="5.6s" begin="3.8s" repeatCount="indefinite"/>
+          </use>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(812,-16)">
+      <g>
+        <animateTransform attributeName="transform" type="translate"
+                          values="0 0; 0 336" dur="16.2s" begin="9.0s" repeatCount="indefinite"/>
+        <g>
+          <animateTransform attributeName="transform" type="translate"
+                            values="0 0; 12 0; -12 0; 0 0" dur="5.5s" begin="9.0s" repeatCount="indefinite"/>
+          <use xlink:href="#p" transform="scale(0.6)" opacity="0.55">
+            <animateTransform attributeName="transform" type="rotate" additive="sum"
+                              values="0;-360" dur="6.8s" begin="9.0s" repeatCount="indefinite"/>
+          </use>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(948,-16)">
+      <g>
+        <animateTransform attributeName="transform" type="translate"
+                          values="0 0; 0 336" dur="10.0s" begin="0.9s" repeatCount="indefinite"/>
+        <g>
+          <animateTransform attributeName="transform" type="translate"
+                            values="0 0; -24 0; 24 0; 0 0" dur="3.4s" begin="0.9s" repeatCount="indefinite"/>
+          <use xlink:href="#p" transform="scale(0.95)" opacity="0.78">
+            <animateTransform attributeName="transform" type="rotate" additive="sum"
+                              values="-15;35;-15" dur="4.3s" begin="0.9s" repeatCount="indefinite"/>
+          </use>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(1076,-16)">
+      <g>
+        <animateTransform attributeName="transform" type="translate"
+                          values="0 0; 0 336" dur="15.0s" begin="6.2s" repeatCount="indefinite"/>
+        <g>
+          <animateTransform attributeName="transform" type="translate"
+                            values="0 0; 14 0; -14 0; 0 0" dur="4.9s" begin="6.2s" repeatCount="indefinite"/>
+          <use xlink:href="#p" transform="scale(0.65)" opacity="0.58">
+            <animateTransform attributeName="transform" type="rotate" additive="sum"
+                              values="0;360" dur="5.9s" begin="6.2s" repeatCount="indefinite"/>
+          </use>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(1198,-16)">
+      <g>
+        <animateTransform attributeName="transform" type="translate"
+                          values="0 0; 0 336" dur="12.8s" begin="4.5s" repeatCount="indefinite"/>
+        <g>
+          <animateTransform attributeName="transform" type="translate"
+                            values="0 0; -18 0; 18 0; 0 0" dur="3.7s" begin="4.5s" repeatCount="indefinite"/>
+          <use xlink:href="#p" transform="scale(1.1)" opacity="0.82">
+            <animateTransform attributeName="transform" type="rotate" additive="sum"
+                              values="25;-20;25" dur="4.8s" begin="4.5s" repeatCount="indefinite"/>
+          </use>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(1322,-16)">
+      <g>
+        <animateTransform attributeName="transform" type="translate"
+                          values="0 0; 0 336" dur="16.8s" begin="8.3s" repeatCount="indefinite"/>
+        <g>
+          <animateTransform attributeName="transform" type="translate"
+                            values="0 0; 20 0; -20 0; 0 0" dur="5.1s" begin="8.3s" repeatCount="indefinite"/>
+          <use xlink:href="#p" transform="scale(0.58)" opacity="0.52">
+            <animateTransform attributeName="transform" type="rotate" additive="sum"
+                              values="0;-360" dur="6.4s" begin="8.3s" repeatCount="indefinite"/>
+          </use>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(1444,-16)">
+      <g>
+        <animateTransform attributeName="transform" type="translate"
+                          values="0 0; 0 336" dur="11.6s" begin="2.0s" repeatCount="indefinite"/>
+        <g>
+          <animateTransform attributeName="transform" type="translate"
+                            values="0 0; -16 0; 16 0; 0 0" dur="4.1s" begin="2.0s" repeatCount="indefinite"/>
+          <use xlink:href="#p" transform="scale(0.9)" opacity="0.72">
+            <animateTransform attributeName="transform" type="rotate" additive="sum"
+                              values="-25;20;-25" dur="5.0s" begin="2.0s" repeatCount="indefinite"/>
+          </use>
+        </g>
+      </g>
     </g>
   </g>
 
