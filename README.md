@@ -3,6 +3,8 @@
   <img src="assets/banner.svg" alt="daniel" width="100%">
 </p>
 
+[![GitHub Streak](https://streak-stats.demolab.com?user=dooneygit&theme=transparent&hide_border=true&timezone=EDT&dates=EB5454&currStreakLabel=EB5454&ring=EB5454&fire=EB5454&currStreakNum=EB5454&sideLabels=EB5454&sideNums=EB5454&hide_longest_streak=true)](https://git.io/streak-stats)
+
 <a href="https://gitcolors.vercel.app" target="_blank" rel="noopener">
   <picture>
     <source srcset="https://gitcolors.vercel.app/api/svg?username=dooneygit&color=ff7472&theme=dark&mode=levels&preset=none&animate=true&emptyColor=neutral" media="(prefers-color-scheme: dark)" />
@@ -11,8 +13,7 @@
   </picture>
 </a>
 
-<details>
-<summary> tech stack wow </summary>
+tech stack wow
 
 | Languages | Frameworks | Technologies |
 |---|---|---|
@@ -23,7 +24,7 @@
 | [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff&style=flat-square)](#) | [![FastAPI](https://img.shields.io/badge/FastAPI-009485.svg?logo=fastapi&logoColor=white&style=flat-square)](#) | [![Google Cloud](https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?logo=google-cloud&logoColor=white&style=flat-square)](#) |
 | [![Kotlin](https://img.shields.io/badge/Kotlin-%237F52FF.svg?logo=kotlin&logoColor=white&style=flat-square)](#) | [![PyTorch](https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white&style=flat-square)](#) | [![Datadog](https://img.shields.io/badge/Datadog-632CA6?logo=datadog&logoColor=fff&style=flat-square)](#) |
 
-</details>
+
 
 <br>
 <p>
