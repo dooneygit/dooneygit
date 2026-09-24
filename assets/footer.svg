@@ -30,6 +30,20 @@
     <!-- cherry blossom petal -->
     <path id="p" fill="#ffb7c5"
           d="M0-7 C5-4.5 6.5 1 0 7 C-6.5 1 -5-4.5 0-7 Z"/>
+
+    <!-- moon glow: wide orange bloom + tight bright halo under the crisp shape -->
+    <filter id="m" x="-100%" y="-100%" width="300%" height="300%">
+      <feFlood flood-color="#ff7a00"/>
+      <feComposite in2="SourceAlpha" operator="in" result="orange"/>
+      <feGaussianBlur in="orange" stdDeviation="9" result="wide"/>
+      <feGaussianBlur in="orange" stdDeviation="3" result="tight"/>
+      <feMerge>
+        <feMergeNode in="wide"/>
+        <feMergeNode in="wide"/>
+        <feMergeNode in="tight"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
 
   <!-- ============================== stars ============================== -->
@@ -79,9 +93,10 @@
   </g>
 
   <!-- =============================== moon ============================== -->
-  <g transform="translate(1290,72) scale(2)">
-    <circle r="26" fill="#3b4152"/>
-    <path d="M4.1-16.5 A17 17 0 1 0 11.4 12.6 A15 15 0 0 1 4.1-16.5 Z" fill="#ffd85e"/>
+  <!-- thin crescent: outer r30 minus inner r23.78 offset (-5.32,-5.32), horns span 300deg -->
+  <g transform="translate(1300,78) scale(1.6) rotate(-30)">
+    <path d="M-7.76-28.98 A30 30 0 1 1 -28.98-7.76 A23.78 23.78 0 1 0 -7.76-28.98 Z"
+          fill="#ffb347" filter="url(#m)"/>
   </g>
 
   <!-- =============================== grass ============================= -->
